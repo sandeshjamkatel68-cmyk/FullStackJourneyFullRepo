@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+div {
+    width: 400px;
+    height: 150px;
+    
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    margin-top: 20px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.balen-img {
+    width: 300px;
+    display:block;
+    margin: auto; 
+}

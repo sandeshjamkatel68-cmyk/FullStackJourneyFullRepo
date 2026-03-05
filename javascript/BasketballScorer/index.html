@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="basketball-score-card">
+        <div class="home-team">
+            <div class="home-team-heading">
+                <h1>Home</h1>
+            </div>
+            <div class="score-screen">
+                <h2 id="score-home-team">0</h2>
+            </div>
+            <div class="counter-btn">
+                <button class="btn" onclick="increment('one')">1</button>
+                <button class="btn" onclick="increment('two')">2</button>
+                <button class="btn" onclick="increment('three')">3</button>
+            </div>
+        </div>
+        <div class="guest-team">
+                  <div class="guest-team-heading">
+                <h1>Guest</h1>
+            </div>
+            <div class="score-screen">
+                <h2 id="score-guest-team">0</h2>
+            </div>
+            <div class="counter-btn">
+                 <!-- <button class="btn" onclick="reset()">New Game</button> -->
+                <button class="btn" onclick="increments('one')">1</button>
+                <button class="btn" onclick="increments('two')">2</button>
+                <button class="btn" onclick="increments('three')">3</button>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

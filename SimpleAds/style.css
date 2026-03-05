@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&family=Rammetto+One&display=swap');
+body {
+    font-family: 'Rammetto one',POPPINS;
+    color: whitesmoke;
+    background: whitesmoke;
+}
+
+.ads {
+    background-color: #35654d;
+    border: 5px solid #A3BC71;
+    padding: 10px;
+    text-align: center;
+}
+
+.cta {
+    padding: 5px 10px;
+    border: 2px solid #A3BC71;
+    background: rgba(165, 42, 42, 0.751);
+    
+}

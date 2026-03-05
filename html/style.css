@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto;
+}
+
+div{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+input{
+    margin-top: 20px;
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+button{
+    margin-left: 20px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.524);
+}
+
+.privacy {
+    margin-top: 10px;
+}

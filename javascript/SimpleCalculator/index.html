@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 input value calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="simple-calc">
+        <input type="text" id="first-num" placeholder="enter first number">
+        <input type="text" id="second-num" placeholder="enter second number">
+        <div class="buttons">
+            <button id="add" onclick="calculate('add')">+</button>
+            <button id="sub" onclick="calculate('sub')">-</button>
+            <button id="mul" onclick="calculate('mul')">x</button>
+            <button id="div" onclick="calculate('div')">&div;</button>
+            <button id="mod" onclick="calculate('mod')">%</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&family=Rammetto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'POPPINS',sans-serif;
+    background-color: #1b263b;
+    color: #fff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    background:linear-gradient(blue,pink);
+}
+
+
+.birthday-card{
+    width: 950px;
+    height: 100%;
+    border: 8px solid rgb(157, 255, 0);
+    outline: 10px solid white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    background-color: #3d3b3b;
+}
+
+.birthday-card h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.birthday-card img {
+    display: flex;
+    width: 180px;
+    margin: auto;
+    border-radius: 40px;
+    border: 2px solid red;
+    outline: 2px solid white;
+}
+
+.birthday-card h2,h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.birthday-card h2{
+    font-weight: 400;
+}
+
+.birthday-card h3{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.para {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.hover-text {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gifts-img {
+    margin: auto;
+    width: 450px;
+    border: 3px solid rgb(0, 13, 255);
+    border-radius: 30px;
+    height: 350px;
+    background-image: url('gits-logo.jpg');
+    background-size: cover;
+}
+
+.gifts-img:hover {
+    background-image: url('gray-nicolas-bart.webp');
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+    transition: 0.5s ease-in-out;
+}
+
+.mama-para {
+    margin-top: 20px;
+}
+
+
+.describe-img:hover {
+    margin: auto;
+    width: 450px;
+    border: 3px solid rgb(0, 13, 255);
+    border-radius: 30px;
+    height: 350px;
+    background-image: url('images.jpeg');
+    background-size: cover;
+}
+
+
+.baddass-img:hover {
+    margin: auto;
+    width: 450px;
+    border: 3px solid rgb(0, 13, 255);
+    border-radius: 30px;
+    height: 350px;
+    background-image: url('virat.jpg');
+    background-size: cover;
+}
